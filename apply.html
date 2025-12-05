@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikacja / Kontakt | GalaxyRbe</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-indigo-700 p-4 text-center text-2xl font-bold">
+    <a href="index.html">GalaxyRbe Serwer Minecraft</a>
+  </header>
+  <main class="max-w-xl mx-auto py-10">
+    <h1 class="text-3xl font-bold mb-6">Aplikuj / Skontaktuj się</h1>
+    <form action="mailto:GalaxyServersss@gmail.com" method="POST" enctype="text/plain" class="space-y-6 bg-gray-800 p-6 rounded">
+      <div>
+        <label class="block mb-2 font-semibold">Twój nick Minecraft</label>
+        <input name="username" type="text" required class="w-full bg-gray-700 p-2 rounded">
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold">Twój email</label>
+        <input name="email" type="email" required class="w-full bg-gray-700 p-2 rounded">
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold">Dlaczego chcesz dołączyć?</label>
+        <textarea name="reason" required class="w-full bg-gray-700 p-2 rounded"></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 px-6 py-2 rounded text-white hover:bg-indigo-800">Wyślij aplikację</button>
+    </form>
+    <p class="mt-6 text-center">Lub napisz na: <a href="mailto:GalaxyServersss@gmail.com" class="underline">GalaxyServersss@gmail.com</a></p>
+  </main>
+  <footer class="bg-gray-800 p-4 text-center mt-10 opacity-75">© Serwer GalaxyRbe</footer>
+</body>
+</html>
